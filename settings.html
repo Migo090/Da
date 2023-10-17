@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+    <link rel="stylesheet" href="master.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/dc4acf190f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="sidebar">
+            <h3>Mi<span>Go</span></h3>
+            <ul>
+                <li>
+                  <a href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw"></i>
+                    <span>Dashboard</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="active" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw"></i>
+                    <span>Settings</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="profile.html">
+                    <i class="fa-regular fa-user fa-fw"></i>
+                    <span>Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="projects.html">
+                    <i class="fa-solid fa-diagram-project fa-fw"></i>
+                    <span>Projects</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="courses.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                    <span>Courses</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="friends.html">
+                    <i class="fa-regular fa-circle-user fa-fw"></i>
+                    <span>Friends</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="files.html">
+                    <i class="fa-regular fa-file fa-fw"></i>
+                    <span>Files</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="plans.html">
+                    <i class="fa-regular fa-credit-card fa-fw"></i>
+                    <span>Plans</span>
+                  </a>
+                </li>
+              </ul>
+        </div>
+        <div class="content">
+          <!-- start head -->
+          <header>
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="search" name="search" id="search" placeholder="type a keyword">
+            </div>
+            <div class="icons">
+              <span class="notification">
+                <i class="fa-regular fa-bell fa-lg"></i>
+              </span>
+              <img src="images/avatar.png" alt="">
+            </div>
+          </header>
+          <!-- end head -->
+          <h1>settings</h1>
+          <div class="settings-page">
+            <!-- start settings widgets -->
+            <div class="wrapper">
+              <div style="display: none;"></div>
+              <div class="site-control">
+                <h2>site control</h2>
+                <p>Control The Website If There Is Maintenance</p>
+                <div class="control-switch">
+                  <div>
+                    <span> Website Control </span>
+                    <p>Open/Close Website And Type The Reason</p>
+                  </div>
+                  <label for="toggle-checkbox">
+                    <input type="checkbox" class="toggle-checkbox" id="toggle-checkbox" checked>
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+                <textarea class="close-message" placeholder="close message content"></textarea>
+              </div>
+              <div class="general-info">
+                <h2>general info</h2>
+                <p>General Information About Your Account</p>
+                <form action="">
+                  <label for="first-name">first name</label>
+                  <input type="text" id="first-name" placeholder="first name">
+                  <label for="last-name">last name</label>
+                  <input type="text" id="last-name" placeholder="last name">
+                  <label for="email">email</label>
+                  <div>
+                    <input type="email" id="email" placeholder="glitch@k.com" readonly>
+                    <a href="#">change</a>
+                  </div>
+                </form>
+              </div>
+              <!-- start security info -->
+              <div class="security-info">
+                <h2>security info</h2>
+                <p>Security Information About Your Account</p>
+                <div class="part">
+                  <div>
+                    <span>Password</span>
+                    <p>Last Change On 25/10/2021</p>
+                  </div>
+                  <a href="#" class="bttn-shape">change</a>
+                </div>
+                <div class="part">
+                  <div>
+                    <span>Two-Factor Authentication</span>
+                    <p>Enable/Disable The Feature</p>
+                  </div>
+                  <label for="security-info">
+                    <input type="checkbox" class="toggle-checkbox" id="security-info" checked>
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+                <div class="part">
+                  <div>
+                    <span>devices</span>
+                    <p>Check The Login Devices List</p>
+                  </div>
+                  <a href="#" class="bttn-shape">devices</a>
+                </div>
+              </div>
+              <!-- end security info -->
+              <!-- start social ifo -->
+              <div class="social-info">
+                <h2>social info</h2>
+                <p>social media Information</p>
+                <div class="s-media">
+                  <i class="fa-brands fa-twitter"></i>
+                  <input type="text" placeholder="twitter username">
+                </div>
+                <div class="s-media">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <input type="text" placeholder="facebook username">
+                </div>
+                <div class="s-media">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <input type="text" placeholder="linkedin username">
+                </div>
+                <div class="s-media">
+                  <i class="fa-brands fa-youtube"></i>
+                  <input type="text" placeholder="youtube username">
+                </div>
+              </div>
+              <!-- end social ifo -->
+              <!-- start widget control -->
+              <div class="widget-control">
+                <h2>Widgets Control</h2>
+                <p>Show/Hide Widgets</p>
+                <div class="option">
+                  <input type="checkbox" name="" id="1box">
+                  <label for="1box">quick draft</label>
+                </div>
+                <div class="option">
+                  <input type="checkbox" name="" id="2box">
+                  <label for="2box">yearly target</label>
+                </div>
+                <div class="option">
+                  <input type="checkbox" name="" id="3box">
+                  <label for="3box">ticktes statices</label>
+                </div>
+                <div class="option">
+                  <input type="checkbox" name="" id="4box">
+                  <label for="4box">latest news</label>
+                </div>
+                <div class="option">
+                  <input type="checkbox" name="" id="5box">
+                  <label for="5box">latest tasks</label>
+                </div>
+                <div class="option">
+                  <input type="checkbox" name="" id="6box">
+                  <label for="6box">top search items</label>
+                </div>
+              </div>
+              <!-- end widget control -->
+              <!-- start bacukup manager -->
+              <div class="backup-manager">
+                <h2>backup manager</h2>
+                <p>Control Backup Time And Location</p>
+                <div class="date">
+                  <input type="radio" name="time" id="daily">
+                  <label for="daily">daily</label>
+                </div>
+                <div class="date">
+                  <input type="radio" name="time" id="weekly">
+                  <label for="weekly">weekly</label>
+                </div>
+                <div class="date">
+                  <input type="radio" name="time" id="monthly">
+                  <label for="monthly">monthly</label>
+                </div>
+                <div class="servers">
+                  <input type="radio" name="servers" id="server1">
+                  <div class="server">
+                    <label for="server1">
+                      <i class="fa-solid fa-server"></i>
+                      megaman
+                    </label>
+                  </div>
+                  <input type="radio" name="servers" id="server2">
+                  <div class="server">
+                    <label for="server2">
+                      <i class="fa-solid fa-server"></i>
+                      sigma
+                    </label>
+                  </div>
+                  <input type="radio" name="servers" id="server3">
+                  <div class="server">
+                    <label for="server3">
+                      <i class="fa-solid fa-server"></i>
+                      sigma
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- end bacukup manager -->
+            </div>
+            <!-- end settings widgets -->
+          </div>
+    </div>
+</body>
+</html>
